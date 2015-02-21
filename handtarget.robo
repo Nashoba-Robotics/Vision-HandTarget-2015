@@ -1,4 +1,4 @@
-<head><version>2.71.11</version></head>
+<head><version>2.71.23</version></head>
 <Axis_Internet_Camera disabled>
   <auto_back_light>TRUE</auto_back_light>
   <auto_exposure>FALSE</auto_exposure>
@@ -34,17 +34,17 @@
   <adaptive_threshold>30</adaptive_threshold>
   <base_folder>.\fiducial</base_folder>
   <create_shape_array>FALSE</create_shape_array>
-  <display_confidence>TRUE</display_confidence>
+  <display_confidence>FALSE</display_confidence>
   <display_contrast>FALSE</display_contrast>
   <display_coord>FALSE</display_coord>
-  <display_distance>TRUE</display_distance>
-  <display_filename>TRUE</display_filename>
+  <display_distance>FALSE</display_distance>
+  <display_filename>FALSE</display_filename>
   <display_orientation>FALSE</display_orientation>
-  <display_rx>TRUE</display_rx>
-  <display_ry>TRUE</display_ry>
+  <display_rx>FALSE</display_rx>
+  <display_ry>FALSE</display_ry>
   <display_scale>FALSE</display_scale>
-  <display_tx>TRUE</display_tx>
-  <display_ty>TRUE</display_ty>
+  <display_tx>FALSE</display_tx>
+  <display_ty>FALSE</display_ty>
   <fiducial_height>3</fiducial_height>
   <fiducial_width>3</fiducial_width>
   <field_of_view>62.5</field_of_view>
@@ -63,22 +63,75 @@
   <min_size>0</min_size>
   <min_x_angle>0</min_x_angle>
   <min_y_angle>0</min_y_angle>
-  <monitor_folder>FALSE</monitor_folder>
+  <monitor_folder>TRUE</monitor_folder>
   <occurrence_threshold>0</occurrence_threshold>
   <select_top_blobs>100</select_top_blobs>
   <sort_array_on_x>FALSE</sort_array_on_x>
   <sort_array_on_y>FALSE</sort_array_on_y>
   <test_color_index>5</test_color_index>
 </Fiducial>
-<Python_Program_v3x disabled>
+<Display_Point>
+  <clear_image>FALSE</clear_image>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <shape_color>red</shape_color>
+  <shape_index>4</shape_index>
+  <shape_size>2</shape_size>
+  <thickness>1</thickness>
+  <x_coord>100</x_coord>
+  <x_variable>FIDUCIAL_X_COORD</x_variable>
+  <y_coord>100</y_coord>
+  <y_variable>FIDUCIAL_Y_COORD</y_variable>
+</Display_Point>
+<Python_Program_v3x>
   <auto_reload>TRUE</auto_reload>
   <continue_on_errors>FALSE</continue_on_errors>
-  <filename>.\pointdetection.py</filename>
+  <filename>.\hand-target.py</filename>
   <script>import rr
 </script>
   <source_mode>file</source_mode>
   <tab_size_index>1</tab_size_index>
 </Python_Program_v3x>
+<Display_Variables>
+  <border_color>red</border_color>
+  <dim_background>TRUE</dim_background>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <display_value_only>FALSE</display_value_only>
+  <font_color>white</font_color>
+  <font_size>Normal (10pt)</font_size>
+  <northwest>TargetVisible
+TargetX
+TargetY
+</northwest>
+</Display_Variables>
+<Display_Line>
+  <clear_image>FALSE</clear_image>
+  <color_index>5</color_index>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <display_mode>1</display_mode>
+  <x_end>0</x_end>
+  <x_end_map>ImageCenterX</x_end_map>
+  <x_start>0</x_start>
+  <x_start_map>ImageCenterX</x_start_map>
+  <y_end>0</y_end>
+  <y_end_map>IMAGE_HEIGHT</y_end_map>
+  <y_start>0</y_start>
+  <y_start_map>0</y_start_map>
+</Display_Line>
+<Display_Line>
+  <clear_image>FALSE</clear_image>
+  <color_index>5</color_index>
+  <display_as_annotation>FALSE</display_as_annotation>
+  <display_mode>1</display_mode>
+  <thickness>-1</thickness>
+  <x_end>0</x_end>
+  <x_end_map>IMAGE_WIDTH</x_end_map>
+  <x_start>0</x_start>
+  <x_start_map>0</x_start_map>
+  <y_end>0</y_end>
+  <y_end_map>ImageCenterY</y_end_map>
+  <y_start>0</y_start>
+  <y_start_map>ImageCenterY</y_start_map>
+</Display_Line>
 <function>
 <function_name>Test</function_name>
 <function_always_run>0</function_always_run>
