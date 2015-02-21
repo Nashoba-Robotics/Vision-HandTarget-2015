@@ -1,0 +1,85 @@
+<head><version>2.71.11</version></head>
+<Axis_Internet_Camera disabled>
+  <auto_back_light>TRUE</auto_back_light>
+  <auto_exposure>FALSE</auto_exposure>
+  <auto_white_balance>TRUE</auto_white_balance>
+  <brightness_value>50</brightness_value>
+  <camera_type>1</camera_type>
+  <color_level_value>50</color_level_value>
+  <compression_index>5</compression_index>
+  <contrast_value>50</contrast_value>
+  <exposure_value>50</exposure_value>
+  <ip_address>10.17.68.11</ip_address>
+  <is_active>TRUE</is_active>
+  <mirrot>FALSE</mirrot>
+  <password>root</password>
+  <port>80</port>
+  <resolution>480x360</resolution>
+  <rotation>180</rotation>
+  <sharpness_value>50</sharpness_value>
+  <username>root</username>
+</Axis_Internet_Camera>
+<Radial_Distortion>
+  <center_x>0.5</center_x>
+  <center_y>0.5</center_y>
+  <coeff_a>-1000.0</coeff_a>
+  <coeff_b>.32</coeff_b>
+  <coeff_c>0.0</coeff_c>
+  <coeff_d>0.0</coeff_d>
+  <coeff_e>0.0</coeff_e>
+  <crop_image>FALSE</crop_image>
+  <scale>1000.0</scale>
+</Radial_Distortion>
+<Fiducial>
+  <adaptive_threshold>30</adaptive_threshold>
+  <base_folder>.\fiducial</base_folder>
+  <create_shape_array>FALSE</create_shape_array>
+  <display_confidence>TRUE</display_confidence>
+  <display_contrast>FALSE</display_contrast>
+  <display_coord>FALSE</display_coord>
+  <display_distance>TRUE</display_distance>
+  <display_filename>TRUE</display_filename>
+  <display_orientation>FALSE</display_orientation>
+  <display_rx>TRUE</display_rx>
+  <display_ry>TRUE</display_ry>
+  <display_scale>FALSE</display_scale>
+  <display_tx>TRUE</display_tx>
+  <display_ty>TRUE</display_ty>
+  <fiducial_height>3</fiducial_height>
+  <fiducial_width>3</fiducial_width>
+  <field_of_view>62.5</field_of_view>
+  <focal_length>290</focal_length>
+  <font_size_index>2</font_size_index>
+  <matched_color_index>3</matched_color_index>
+  <max_angle>360</max_angle>
+  <max_confidence>100</max_confidence>
+  <max_contrast>100</max_contrast>
+  <max_size>1000</max_size>
+  <max_x_angle>360</max_x_angle>
+  <max_y_angle>360</max_y_angle>
+  <min_angle>0</min_angle>
+  <min_confidence>80</min_confidence>
+  <min_contrast>0</min_contrast>
+  <min_size>0</min_size>
+  <min_x_angle>0</min_x_angle>
+  <min_y_angle>0</min_y_angle>
+  <monitor_folder>FALSE</monitor_folder>
+  <occurrence_threshold>0</occurrence_threshold>
+  <select_top_blobs>100</select_top_blobs>
+  <sort_array_on_x>FALSE</sort_array_on_x>
+  <sort_array_on_y>FALSE</sort_array_on_y>
+  <test_color_index>5</test_color_index>
+</Fiducial>
+<Python_Program_v3x disabled>
+  <auto_reload>TRUE</auto_reload>
+  <continue_on_errors>FALSE</continue_on_errors>
+  <filename>.\pointdetection.py</filename>
+  <script>import rr
+</script>
+  <source_mode>file</source_mode>
+  <tab_size_index>1</tab_size_index>
+</Python_Program_v3x>
+<function>
+<function_name>Test</function_name>
+<function_always_run>0</function_always_run>
+</function>
