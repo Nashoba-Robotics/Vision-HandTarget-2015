@@ -132,6 +132,17 @@ TargetY
   <y_start>0</y_start>
   <y_start_map>ImageCenterY</y_start_map>
 </Display_Line>
+<NetworkTables>
+  <delay>100</delay>
+  <filter_type_index>0</filter_type_index>
+  <hostname>10.17.68.2</hostname>
+  <port>1735</port>
+  <prefix>/SmartDashboard/</prefix>
+  <variables_to_send>TargetVisible
+TargetX
+TargetY</variables_to_send>
+  <variable_type_index>0</variable_type_index>
+</NetworkTables>
 <function>
 <function_name>Test</function_name>
 <function_always_run>0</function_always_run>
