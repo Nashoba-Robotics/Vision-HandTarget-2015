@@ -138,7 +138,9 @@ TargetY
   <hostname>10.17.68.2</hostname>
   <port>1735</port>
   <prefix>/SmartDashboard/</prefix>
-  <variables_to_send>TargetVisible
+  <variables_to_send>IMAGE_HEIGHT
+IMAGE_WIDTH
+TargetVisible
 TargetX
 TargetY</variables_to_send>
   <variable_type_index>0</variable_type_index>
