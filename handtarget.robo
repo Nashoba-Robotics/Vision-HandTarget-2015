@@ -1,4 +1,4 @@
-<head><version>2.71.23</version></head>
+<head><version>2.72.5</version></head>
 <Axis_Internet_Camera disabled>
   <auto_back_light>TRUE</auto_back_light>
   <auto_exposure>FALSE</auto_exposure>

@@ -57,7 +57,7 @@ try:
             
             #rr.SetVariable("C", C*180./math.pi)
             #rr.SetVariable("A", A*180./math.pi)
-            rr.SetVariable("TargetAngleError", error*180./math.pi/2)
+            rr.SetVariable("TargetAngleError", error)
             rr.SetVariable("OutsidesVisible", True)
         else:
             rr.SetVariable("OutsidesVisible", False)
